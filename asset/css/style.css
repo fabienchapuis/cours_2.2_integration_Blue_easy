@@ -1,18 +1,44 @@
-* {
+@font-face {
+  font-family: 'Segoe';
+  src: url("../fonts/segoe/SegoeUI.svg#SegoeUI") format("svg");
+  src: url("../fonts/segoe/SegoeUI.ttf") format("truetype");
+  src: url("../fonts/segoe/SegoeUI.woff") format("woff");
+  src: url("../fonts/segoe/Segoe UI.eot");
+  font-weight: normal;
+  font-style: normal; }
+body *,
+html * {
   margin: 0;
   padding: 0; }
-
-body .container-fluid {
-  padding: 0; }
-  body .container-fluid #barre {
+body header,
+html header {
+  background-image: url("../img/champ.jpg");
+  margin: 0; }
+  body header #barre,
+  html header #barre {
     background-color: #444f56;
-    justify-content: space-around; }
-  body .container-fluid .navbar-brand {
-    margin-right: -16rem;
-    color: white; }
-  body .container-fluid .navbar-nav {
-    margin-left: 62vw; }
-  body .container-fluid .navbar-nav.mr-auto {
-    color: white; }
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    width: 100vw; }
+    body header #barre .logo,
+    html header #barre .logo {
+      font-family: "Segoe";
+      color: white;
+      font-weight: 800;
+      margin-right: -16rem; }
+      body header #barre .logo span,
+      html header #barre .logo span {
+        font-family: "Segoe";
+        color: #6fa2cc;
+        font-weight: 800; }
+    body header #barre .home,
+    html header #barre .home {
+      margin-left: 45.25rem; }
+      body header #barre .home .nav-link,
+      html header #barre .home .nav-link {
+        font-family: "Segoe";
+        color: white;
+        font-weight: 800; }
 
 /*# sourceMappingURL=style.css.map */
