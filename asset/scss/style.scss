@@ -11,13 +11,14 @@
 body,
 html {
     * {
+
         margin: 0;
         padding: 0;
     }
 
     header {
         background-image: url("../img/champ.jpg");
-
+        height: 100vh;
         margin: 0;
 
 
@@ -44,8 +45,6 @@ html {
                 }
             }
 
-
-
             // --------|Menu de navigation|------|
             .home {
 
@@ -60,11 +59,34 @@ html {
 
             }
 
-
         }
 
 
+        .titre1 {
+            font-family: "Segoe";
+            color: white;
+            font-size: 2.6em;
+            font-weight: 200;
+            margin-top: 50vh;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 1px solid #242525;
+            width: 56vw;
+            margin-left: 22VW;
+        }
 
+        .titre2 {
+            font-family: "Segoe";
+            color: white;
+            font-size: 2.6em;
+            font-weight: 200;
+            margin-top: 5vh;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 1px solid #242525;
+            width: 81vw;
+            margin-left: 10VW;
+        }
 
 
 
