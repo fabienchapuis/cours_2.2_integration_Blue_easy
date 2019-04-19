@@ -1,107 +1,111 @@
-@font-face {
-    font-family: 'Segoe';
-    src: url('../fonts/segoe/SegoeUI.svg#SegoeUI') format('svg');
-    src: url('../fonts/segoe/SegoeUI.ttf') format('truetype');
-    src: url('../fonts/segoe/SegoeUI.woff') format('woff');
-    src: url('../fonts/segoe/Segoe UI.eot');
-    font-weight: normal;
-    font-style: normal;
+@import url('https://cdn.jsdelivr.net/npm/segoe-fonts@1.0.1/segoe-fonts.css');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
 }
 
-body,
+
+
 html {
-    * {
+    body {
 
-        margin: 0;
-        padding: 0;
-    }
-
-    header {
-        background-image: url("../img/champ.jpg");
-        height: 100vh;
-        margin: 0;
-
-
-        #barre {
-            //|-----|Background navbar|---------|
-            background-color: #444f56;
-            justify-content: space-around;
-            padding: 0;
+        header {
+            background-image: url("../img/champ.jpg");
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
             margin: 0;
-            width: 100vw;
 
-            .logo {
-                //|-----|logo Blueasy|--------------|
-                font-family: "Segoe";
-                color: white;
-                font-weight: 800;
-                margin-right: -16rem;
 
-                span {
-                    //-----| E de Blueasy|----------|
-                    font-family: "Segoe";
-                    color: #6fa2cc;
-                    font-weight: 800;
-                }
-            }
+            #barre {
+                //|-----|Background navbar|---------|
+                background-color: #444f56;
+                justify-content: space-around;
+                height: 8vh;
+                padding: 0;
+                margin: 0;
 
-            // --------|Menu de navigation|------|
-            .home {
 
-                margin-left: 45.25rem;
-
-                .nav-link {
-                    // ----|Li|--------|
-                    font-family: "Segoe";
+                .logo {
+                    //|-----|logo Blueasy|--------------|
+                    font-family: 'Segoe UI Bold';
                     color: white;
                     font-weight: 800;
+
+
+
+                    span {
+                        //-----| E de Blueasy|----------|
+                        font-family: 'Segoe UI Bold';
+                        color: #6fa2cc;
+                        font-weight: 800;
+
+                    }
                 }
 
+                // --------|Menu de navigation|------|
+                .home {
+
+
+
+                    .nav-link {
+                        // ----|Li|--------|
+                        font-family: 'Segoe UI Bold';
+                        color: white;
+                        font-weight: 800;
+                    }
+
+                    .nav-link :hover {
+                        // ----|Li|--------|
+                        border: 1px solid #4bcaff;
+                    }
+
+
+
+
+
+
+                }
             }
 
+            .titre {
+
+                text-align: center;
+                align-items: center;
+                height: 85vh;
+                margin-top: 40vh;
+
+                .titre1 {
+                    font-family: 'Segoe UI Light';
+                    font-weight: 200;
+                    color: white;
+                    font-size: 2.6em;
+                    background-color: rgba(0, 0, 0, 0.7);
+                    border: 1px solid #242525;
+
+                }
+
+                .titre2 {
+                    font-family: 'Segoe UI Light';
+                    color: white;
+                    font-size: 2.6em;
+                    background-color: rgba(0, 0, 0, 0.7);
+                    border: 1px solid #242525;
+                }
+            }
+
+
+
+
+
+
         }
-
-
-        .titre1 {
-            font-family: "Segoe";
-            color: white;
-            font-size: 2.6em;
-            font-weight: 200;
-            margin-top: 50vh;
-            text-align: center;
-            background-color: rgba(0, 0, 0, 0.7);
-            border: 1px solid #242525;
-            width: 56vw;
-            margin-left: 22VW;
-        }
-
-        .titre2 {
-            font-family: "Segoe";
-            color: white;
-            font-size: 2.6em;
-            font-weight: 200;
-            margin-top: 5vh;
-            text-align: center;
-            background-color: rgba(0, 0, 0, 0.7);
-            border: 1px solid #242525;
-            width: 81vw;
-            margin-left: 10VW;
-        }
-
-
-
-
-
-
-
-
-
 
 
     }
-
-
-
 
 
 

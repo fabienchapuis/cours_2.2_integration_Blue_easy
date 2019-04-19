@@ -1,69 +1,51 @@
-@font-face {
-  font-family: 'Segoe';
-  src: url("../fonts/segoe/SegoeUI.svg#SegoeUI") format("svg");
-  src: url("../fonts/segoe/SegoeUI.ttf") format("truetype");
-  src: url("../fonts/segoe/SegoeUI.woff") format("woff");
-  src: url("../fonts/segoe/Segoe UI.eot");
-  font-weight: normal;
-  font-style: normal; }
-body *,
-html * {
+@import url("https://cdn.jsdelivr.net/npm/segoe-fonts@1.0.1/segoe-fonts.css");
+* {
   margin: 0;
   padding: 0; }
-body header,
-html header {
+
+html body header {
   background-image: url("../img/champ.jpg");
   height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0; }
-  body header #barre,
-  html header #barre {
+  html body header #barre {
     background-color: #444f56;
     justify-content: space-around;
+    height: 8vh;
     padding: 0;
-    margin: 0;
-    width: 100vw; }
-    body header #barre .logo,
-    html header #barre .logo {
-      font-family: "Segoe";
+    margin: 0; }
+    html body header #barre .logo {
+      font-family: 'Segoe UI Bold';
       color: white;
-      font-weight: 800;
-      margin-right: -16rem; }
-      body header #barre .logo span,
-      html header #barre .logo span {
-        font-family: "Segoe";
+      font-weight: 800; }
+      html body header #barre .logo span {
+        font-family: 'Segoe UI Bold';
         color: #6fa2cc;
         font-weight: 800; }
-    body header #barre .home,
-    html header #barre .home {
-      margin-left: 45.25rem; }
-      body header #barre .home .nav-link,
-      html header #barre .home .nav-link {
-        font-family: "Segoe";
-        color: white;
-        font-weight: 800; }
-  body header .titre1,
-  html header .titre1 {
-    font-family: "Segoe";
-    color: white;
-    font-size: 2.6em;
-    font-weight: 200;
-    margin-top: 50vh;
+    html body header #barre .home .nav-link {
+      font-family: 'Segoe UI Bold';
+      color: white;
+      font-weight: 800; }
+    html body header #barre .home .nav-link :hover {
+      border: 1px solid #4bcaff; }
+  html body header .titre {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    border: 1px solid #242525;
-    width: 56vw;
-    margin-left: 22VW; }
-  body header .titre2,
-  html header .titre2 {
-    font-family: "Segoe";
-    color: white;
-    font-size: 2.6em;
-    font-weight: 200;
-    margin-top: 5vh;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    border: 1px solid #242525;
-    width: 81vw;
-    margin-left: 10VW; }
+    align-items: center;
+    height: 85vh;
+    margin-top: 40vh; }
+    html body header .titre .titre1 {
+      font-family: 'Segoe UI Light';
+      font-weight: 200;
+      color: white;
+      font-size: 2.6em;
+      background-color: rgba(0, 0, 0, 0.7);
+      border: 1px solid #242525; }
+    html body header .titre .titre2 {
+      font-family: 'Segoe UI Light';
+      color: white;
+      font-size: 2.6em;
+      background-color: rgba(0, 0, 0, 0.7);
+      border: 1px solid #242525; }
 
 /*# sourceMappingURL=style.css.map */
