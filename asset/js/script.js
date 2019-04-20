@@ -6,3 +6,6 @@
 
 
 // });
+
+console.log('%c%s',
+    'color: red;  font-size: 12px;', '   |-- Putain ca marche !!!!!');
