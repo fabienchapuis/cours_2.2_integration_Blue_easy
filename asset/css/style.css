@@ -50,13 +50,15 @@ html body header {
 html .services {
   font-family: 'Segoe UI Light';
   background-color: #4bcaff;
-  color: white; }
+  color: white;
+  padding-top: 5%; }
   html .services h2 {
     margin-top: 5%;
     margin-bottom: 5%; }
   html .services .coffee {
     font-family: 'Segoe UI Semiboldd'; }
     html .services .coffee h3 {
+      font-family: 'Segoe UI Semiboldd';
       margin-top: 5%;
       margin-bottom: 5%; }
     html .services .coffee p {
