@@ -47,5 +47,44 @@ html body header {
       font-size: 2.6em;
       background-color: rgba(0, 0, 0, 0.7);
       border: 1px solid #242525; }
+html .services {
+  font-family: 'Segoe UI Light';
+  background-color: #4bcaff;
+  color: white; }
+  html .services h2 {
+    margin-top: 5%;
+    margin-bottom: 5%; }
+  html .services .coffee {
+    font-family: 'Segoe UI Semiboldd'; }
+    html .services .coffee h3 {
+      margin-top: 5%;
+      margin-bottom: 5%; }
+    html .services .coffee p {
+      margin-top: 5%;
+      margin-bottom: 5%; }
+  html .services .instant {
+    font-family: 'Segoe UI Semiboldd'; }
+    html .services .instant h3 {
+      margin-top: 5%;
+      margin-bottom: 5%; }
+    html .services .instant p {
+      margin-top: 5%;
+      margin-bottom: 5%; }
+  html .services .serious {
+    font-family: 'Segoe UI Semiboldd'; }
+    html .services .serious h3 {
+      margin-top: 5%;
+      margin-bottom: 5%; }
+    html .services .serious p {
+      margin-top: 5%;
+      margin-bottom: 5%; }
+  html .services .frame {
+    font-family: 'Segoe UI Semiboldd'; }
+    html .services .frame h3 {
+      margin-top: 5%;
+      margin-bottom: 5%; }
+    html .services .frame p {
+      margin-top: 5%;
+      margin-bottom: 5%; }
 
 /*# sourceMappingURL=style.css.map */
