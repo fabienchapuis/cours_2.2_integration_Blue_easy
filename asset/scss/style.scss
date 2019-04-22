@@ -281,10 +281,43 @@ html {
 
     // ------------------------------|Section Citation |--------------------------------------|
 
+    .texte3 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+        h2 {
+            font-family: 'Segoe UI Light';
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+
+        blockquote {
+            font-family: "Segoe UI";
+            font-size: 0.875rem;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+
+        cite {
+            color: #4bcaff;
+            font-size: 0.875rem;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+    }
+
+    // ------------------------------|Section Formulaire de Contact |--------------------------------------|
+    .contact {
+        background-image: url("../img/contact.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
 
 
 
 
+
+    }
 
 
 
