@@ -51,7 +51,8 @@ html .services {
   font-family: 'Segoe UI Light';
   background-color: #4bcaff;
   color: white;
-  padding-top: 5%; }
+  padding-top: 5%;
+  padding-bottom: 10%; }
   html .services h2 {
     margin-top: 5%;
     margin-bottom: 5%; }
@@ -90,12 +91,13 @@ html .services {
       margin-bottom: 5%; }
 html .portfolio {
   background-color: white;
-  height: 52.6875rem; }
+  height: 35.6875rem; }
 html .just {
-  background-color: #515f67;
-  height: 70vh; }
+  background-color: #515f67; }
   html .just .texte {
-    color: white; }
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%; }
     html .just .texte h2 {
       font-family: 'Segoe UI Light';
       margin-top: 5%;
@@ -111,6 +113,8 @@ html .just {
       text-decoration: none;
       text-align: center;
       border: 1px solid #242525; }
+  html .just iframe {
+    margin-top: 20%; }
 html .twitter {
   background-color: #4bcaff;
   color: white; }
@@ -118,6 +122,9 @@ html .twitter {
     font-family: 'Segoe UI Light';
     margin-top: 5%;
     margin-bottom: 5%; }
+  html .twitter a,
+  html .twitter i {
+    color: white; }
   html .twitter p {
     font-family: "Segoe UI ";
     font-size: 1.75rem;
@@ -125,5 +132,24 @@ html .twitter {
     margin-bottom: 5%; }
     html .twitter p span {
       font-family: "Segoe UI Semibold"; }
+html .who {
+  background-image: url("../img/who_is.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white; }
+  html .who h2 {
+    font-family: 'Segoe UI Light';
+    margin-top: 5%;
+    margin-bottom: 5%; }
+  html .who .texte2 {
+    font-family: "Segoe UI";
+    font-size: 0.875rem;
+    margin-top: 5%;
+    margin-bottom: 5%; }
+  html .who .texte2_1 {
+    font-family: "Segoe UI";
+    font-size: 0.875rem;
+    margin-top: 5%;
+    margin-bottom: 5%; }
 
 /*# sourceMappingURL=style.css.map */

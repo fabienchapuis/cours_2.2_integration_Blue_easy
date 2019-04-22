@@ -95,6 +95,7 @@ html {
         background-color: #4bcaff;
         color: white;
         padding-top: 5%;
+        padding-bottom: 10%;
 
         h2 {
             margin-top: 5%;
@@ -165,7 +166,7 @@ html {
 
     .portfolio {
         background-color: white;
-        height: 52.6875rem;
+        height: 35.6875rem;
 
 
 
@@ -178,10 +179,12 @@ html {
     // ------------------------------|Section Just Default |--------------------------------------|
     .just {
         background-color: #515f67;
-        height: 70vh;
+
 
         .texte {
             color: white;
+            margin-top: 5%;
+            margin-bottom: 5%;
 
             h2 {
                 font-family: 'Segoe UI Light';
@@ -204,8 +207,15 @@ html {
                 border: 1px solid #242525;
             }
         }
+
+        iframe {
+            margin-top: 20%;
+
+
+        }
     }
 
+    // ------------------------------|Section Twitter |--------------------------------------|
     .twitter {
 
         background-color: #4bcaff;
@@ -215,6 +225,12 @@ html {
             font-family: 'Segoe UI Light';
             margin-top: 5%;
             margin-bottom: 5%;
+
+        }
+
+        a,
+        i {
+            color: white;
         }
 
         p {
@@ -230,8 +246,40 @@ html {
 
     }
 
+    // ------------------------------|Section Who Is John |--------------------------------------|
+    .who {
+        background-image: url("../img/who_is.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        color: white;
 
 
+        h2 {
+            font-family: 'Segoe UI Light';
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+
+        .texte2 {
+            font-family: "Segoe UI";
+            font-size: 0.875rem;
+            margin-top: 5%;
+            margin-bottom: 5%;
+
+        }
+
+        .texte2_1 {
+            font-family: "Segoe UI";
+
+            font-size: 0.875rem;
+            margin-top: 5%;
+            margin-bottom: 5%;
+
+        }
+
+    }
+
+    // ------------------------------|Section Citation |--------------------------------------|
 
 
 
