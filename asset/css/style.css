@@ -88,5 +88,8 @@ html .services {
     html .services .frame p {
       margin-top: 5%;
       margin-bottom: 5%; }
+html .portfolio {
+  background-color: white;
+  height: 52.6875rem; }
 
 /*# sourceMappingURL=style.css.map */
