@@ -175,9 +175,44 @@ html {
 
     }
 
+    // ------------------------------|Section Just Default |--------------------------------------|
+    .just {
+        background-color: #515f67;
+
+        .texte {
+            color: white;
+
+            h2 {
+                font-family: 'Segoe UI Light';
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+
+            p {
+                font-family: 'Segoe UI ';
+                margin-top: 5%;
+                margin-bottom: 5%;
+                margin-right: 5%;
+            }
+
+            .bouton1 {
+                color: black;
+                padding: 1% 3%;
+                text-decoration: none;
+                text-align: center;
+                border: 1px solid #242525;
+            }
+        }
 
 
 
+
+
+
+
+    }
+
+    iframe {}
 
 
 

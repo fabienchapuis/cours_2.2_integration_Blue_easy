@@ -91,5 +91,24 @@ html .services {
 html .portfolio {
   background-color: white;
   height: 52.6875rem; }
+html .just {
+  background-color: #515f67; }
+  html .just .texte {
+    color: white; }
+    html .just .texte h2 {
+      font-family: 'Segoe UI Light';
+      margin-top: 5%;
+      margin-bottom: 5%; }
+    html .just .texte p {
+      font-family: 'Segoe UI ';
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-right: 5%; }
+    html .just .texte .bouton1 {
+      color: black;
+      padding: 1% 3%;
+      text-decoration: none;
+      text-align: center;
+      border: 1px solid #242525; }
 
 /*# sourceMappingURL=style.css.map */
