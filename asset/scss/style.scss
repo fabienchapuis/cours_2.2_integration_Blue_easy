@@ -102,10 +102,10 @@ html {
         }
 
         .coffee {
-            font-family: 'Segoe UI Semiboldd';
+            font-family: "Segoe UI Semibold";
 
             h3 {
-                font-family: 'Segoe UI Semiboldd';
+                font-family: 'Segoe UI Semibold"';
                 margin-top: 5%;
                 margin-bottom: 5%;
             }
@@ -117,7 +117,7 @@ html {
         }
 
         .instant {
-            font-family: 'Segoe UI Semiboldd';
+            font-family: "Segoe UI Semibold";
 
             h3 {
                 margin-top: 5%;
@@ -132,7 +132,7 @@ html {
         }
 
         .serious {
-            font-family: 'Segoe UI Semiboldd';
+            font-family: "Segoe UI Semibold";
 
             h3 {
                 margin-top: 5%;
@@ -146,7 +146,7 @@ html {
         }
 
         .frame {
-            font-family: 'Segoe UI Semiboldd';
+            font-family: "Segoe UI Semibold";
 
             h3 {
                 margin-top: 5%;
@@ -178,6 +178,7 @@ html {
     // ------------------------------|Section Just Default |--------------------------------------|
     .just {
         background-color: #515f67;
+        height: 70vh;
 
         .texte {
             color: white;
@@ -189,7 +190,7 @@ html {
             }
 
             p {
-                font-family: 'Segoe UI ';
+                font-family: 'Segoe UI';
                 margin-top: 5%;
                 margin-bottom: 5%;
                 margin-right: 5%;
@@ -203,16 +204,31 @@ html {
                 border: 1px solid #242525;
             }
         }
-
-
-
-
-
-
-
     }
 
-    iframe {}
+    .twitter {
+
+        background-color: #4bcaff;
+        color: white;
+
+        h2 {
+            font-family: 'Segoe UI Light';
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+
+        p {
+            font-family: "Segoe UI ";
+            font-size: 1.75rem;
+            margin-top: 5%;
+            margin-bottom: 5%;
+
+            span {
+                font-family: "Segoe UI Semibold";
+            }
+        }
+
+    }
 
 
 

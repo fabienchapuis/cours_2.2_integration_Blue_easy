@@ -56,16 +56,16 @@ html .services {
     margin-top: 5%;
     margin-bottom: 5%; }
   html .services .coffee {
-    font-family: 'Segoe UI Semiboldd'; }
+    font-family: "Segoe UI Semibold"; }
     html .services .coffee h3 {
-      font-family: 'Segoe UI Semiboldd';
+      font-family: 'Segoe UI Semibold"';
       margin-top: 5%;
       margin-bottom: 5%; }
     html .services .coffee p {
       margin-top: 5%;
       margin-bottom: 5%; }
   html .services .instant {
-    font-family: 'Segoe UI Semiboldd'; }
+    font-family: "Segoe UI Semibold"; }
     html .services .instant h3 {
       margin-top: 5%;
       margin-bottom: 5%; }
@@ -73,7 +73,7 @@ html .services {
       margin-top: 5%;
       margin-bottom: 5%; }
   html .services .serious {
-    font-family: 'Segoe UI Semiboldd'; }
+    font-family: "Segoe UI Semibold"; }
     html .services .serious h3 {
       margin-top: 5%;
       margin-bottom: 5%; }
@@ -81,7 +81,7 @@ html .services {
       margin-top: 5%;
       margin-bottom: 5%; }
   html .services .frame {
-    font-family: 'Segoe UI Semiboldd'; }
+    font-family: "Segoe UI Semibold"; }
     html .services .frame h3 {
       margin-top: 5%;
       margin-bottom: 5%; }
@@ -92,7 +92,8 @@ html .portfolio {
   background-color: white;
   height: 52.6875rem; }
 html .just {
-  background-color: #515f67; }
+  background-color: #515f67;
+  height: 70vh; }
   html .just .texte {
     color: white; }
     html .just .texte h2 {
@@ -100,7 +101,7 @@ html .just {
       margin-top: 5%;
       margin-bottom: 5%; }
     html .just .texte p {
-      font-family: 'Segoe UI ';
+      font-family: 'Segoe UI';
       margin-top: 5%;
       margin-bottom: 5%;
       margin-right: 5%; }
@@ -110,5 +111,19 @@ html .just {
       text-decoration: none;
       text-align: center;
       border: 1px solid #242525; }
+html .twitter {
+  background-color: #4bcaff;
+  color: white; }
+  html .twitter h2 {
+    font-family: 'Segoe UI Light';
+    margin-top: 5%;
+    margin-bottom: 5%; }
+  html .twitter p {
+    font-family: "Segoe UI ";
+    font-size: 1.75rem;
+    margin-top: 5%;
+    margin-bottom: 5%; }
+    html .twitter p span {
+      font-family: "Segoe UI Semibold"; }
 
 /*# sourceMappingURL=style.css.map */
