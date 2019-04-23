@@ -254,6 +254,7 @@ html {
         color: white;
 
 
+
         h2 {
             font-family: 'Segoe UI Light';
             margin-top: 5%;
@@ -282,21 +283,22 @@ html {
             img {
                 height: 50%;
                 border: 1px solid white;
-                padding: 5% 3%;
+                padding: 5% 0%;
 
 
             }
 
-
-
-
-
+            #image1 {
+                color: white;
+            }
         }
 
-
-
-
     }
+
+
+
+
+
 
     // ------------------------------|Section Citation |--------------------------------------|
 
@@ -312,13 +314,14 @@ html {
 
         blockquote {
             font-family: "Segoe UI";
-            font-size: 0.875rem;
+            font-size: 1.75rem;
             margin-top: 5%;
             margin-bottom: 5%;
         }
 
         cite {
             color: #4bcaff;
+            font-family: 'Segoe UI Bold';
             font-size: 0.875rem;
             margin-top: 5%;
             margin-bottom: 5%;
@@ -332,10 +335,9 @@ html {
         background-size: cover;
         color: white;
 
+
         h2 {
             font-family: 'Segoe UI Light';
-            margin-top: 5%;
-            margin-bottom: 5%;
 
         }
 
@@ -349,48 +351,43 @@ html {
 
         }
 
-        #nom {
-
-            background-color: rgba(0, 0, 0, 0);
-        }
-
-        #email {
-            background-color: rgba(0, 0, 0, 0);
-        }
-
+        #nom,
+        #email,
         #comment {
+
             background-color: rgba(0, 0, 0, 0);
         }
+
+
     }
-}
 
 
 
-// -------------------------------------------------|Section Footer|--------------------------------------|
-footer {
 
-    color: grey;
-    background-color: #353f47;
+    // -------------------------------------------------|Section Footer|--------------------------------------|
+    footer {
 
-
-
-    ul {
-
-        text-decoration: none;
-        list-style: none;
+        color: grey;
         background-color: #353f47;
+        padding-top: 3%;
+        padding-bottom: 3%;
 
-        li {
-            margin-top: 5%;
-            margin-bottom: 5%;
+
+        a {
+
             text-decoration: none;
-            list-style: none;
+            background-color: #353f47;
+            color: grey;
 
-            .nav-link {
-                color: grey;
-            }
+
         }
 
+        a:hover {
+            color: #4bcaff;
+            text-decoration: none;
+
+
+        }
 
     }
 

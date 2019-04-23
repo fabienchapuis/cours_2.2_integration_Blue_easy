@@ -154,7 +154,9 @@ html .who {
   html .who .icone img {
     height: 50%;
     border: 1px solid white;
-    padding: 5% 3%; }
+    padding: 5% 0%; }
+  html .who .icone #image1 {
+    color: white; }
 html .texte3 {
   margin-top: 5%;
   margin-bottom: 5%; }
@@ -164,11 +166,12 @@ html .texte3 {
     margin-bottom: 5%; }
   html .texte3 blockquote {
     font-family: "Segoe UI";
-    font-size: 0.875rem;
+    font-size: 1.75rem;
     margin-top: 5%;
     margin-bottom: 5%; }
   html .texte3 cite {
     color: #4bcaff;
+    font-family: 'Segoe UI Bold';
     font-size: 0.875rem;
     margin-top: 5%;
     margin-bottom: 5%; }
@@ -178,33 +181,26 @@ html .contact {
   background-size: cover;
   color: white; }
   html .contact h2 {
-    font-family: 'Segoe UI Light';
-    margin-top: 5%;
-    margin-bottom: 5%; }
+    font-family: 'Segoe UI Light'; }
   html .contact .para1 {
     font-family: "Segoe UI Semibold"; }
   html .contact .para2 {
     font-family: "Segoe UI Semibold"; }
-  html .contact #nom {
-    background-color: rgba(0, 0, 0, 0); }
-  html .contact #email {
-    background-color: rgba(0, 0, 0, 0); }
+  html .contact #nom,
+  html .contact #email,
   html .contact #comment {
     background-color: rgba(0, 0, 0, 0); }
-
-footer {
+html footer {
   color: grey;
-  background-color: #353f47; }
-  footer ul {
+  background-color: #353f47;
+  padding-top: 3%;
+  padding-bottom: 3%; }
+  html footer a {
     text-decoration: none;
-    list-style: none;
-    background-color: #353f47; }
-    footer ul li {
-      margin-top: 5%;
-      margin-bottom: 5%;
-      text-decoration: none;
-      list-style: none; }
-      footer ul li .nav-link {
-        color: grey; }
+    background-color: #353f47;
+    color: grey; }
+  html footer a:hover {
+    color: #4bcaff;
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

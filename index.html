@@ -178,6 +178,7 @@
                     <p>Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry
                         gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice
                         cream wafer gummies cheesecake brownie.</p>
+
                     <p>Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding.
                         Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake
                         bonbon I love candy canes toffee.</p>
@@ -190,20 +191,20 @@
                 <div class="icone col-11 img-fluid row justify-content-end">
                     <p>
                         <a href="#">
-                            <img border="0" alt="twitter" src="asset/icone/twitter-brands.svg" width="100" height="100"
-                                target="_blank">
+                            <img id="image1" border="0" alt="twitter" src="asset/icone/twitter-brands.svg" width="100"
+                                height="100" target="_blank">
                         </a>
                         <a href="#">
-                            <img border="0" alt="google +" src="asset/icone/google-plus-g-brands.svg" width="100"
-                                height="100" target="_blank">
+                            <img id="image2" border="0" alt="google +" src="asset/icone/google-plus-g-brands.svg"
+                                width="100" height="100" target="_blank">
 
                         </a>
                         <a href="#">
-                            <img border="0" alt="dribbble" src="asset/icone/dribbble-brands.svg" width="100"
+                            <img id="image3" border="0" alt="dribbble" src="asset/icone/dribbble-brands.svg" width="100"
                                 height="100" target="_blank">
 
                         </a>
-                        <a href="#">
+                        <a id="image4" href="#">
                             <img border="0" alt="café" src="asset/icone/coffee-solid.svg" width="100" height="100"
                                 target="_blank">
 
@@ -232,57 +233,65 @@
     <!-- |--------------------------|section Formulaire de Contact|--------------------------------| -->
     <section id="formul" class="contact container-fluid">
         <div class="container">
-            <div class="row mb-10  d-inline-block align-content-around"">
-                <form>
-                    <h2 class=" mb-10">CONTACT</h2>
-                <p class="para1 mb-5">Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet
-                    lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread
-                    lollipop tart. Jujubes bear claw donut chupa chups.</p>
+            <h2 class="">CONTACT</h2>
 
-                <p class="para2 mb-5">Linda Newman
-                    W325 State Road 123
-                    Mondovi, WI(Wisconsin) 98746-54321
-                    (715) 946 - 1234</p>
-
-                <div class="form-group mb-5">
-                    <label for="nom">FULL NAME</label>
-                    <input type="text" class="form-control" id="nom">
+            <form>
+                <div class="row ">
+                    <div class="form-group col-6">
+                        <label for="nom">FULL NAME</label>
+                        <input type="text" class="form-control" id="nom">
+                    </div>
+                    <div class="para1 col-6">
+                        <p class="">Jujubes bear claw croissant wafer
+                            sweet lemon drops brownie chocolate bar. Sweet
+                            lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread
+                            lollipop tart. Jujubes bear claw donut chupa chups.</p>
+                    </div>
                 </div>
 
-                <div class="form-group mb-5">
-                    <label for="exampleInputEmail1">EMAIL</label>
-                    <input id="email" type="text" class="form-control" name="email">
+                <div class="row">
+                    <div class=" form-group col-6">
+                        <label for="exampleInputEmail1">EMAIL</label>
+                        <input id="email" type="text" class="form-control" name="email">
+                    </div>
+                    <p class="para2 col-6 ">
+                        Linda Newman
+                        W325 State Road 123
+                        Mondovi, WI(Wisconsin) 98746-54321
+                        (715) 946 - 1234</p>
                 </div>
-
-                <div class="form-group mb-10">
-                    <label for="comment">MESSAGE</label>
-                    <textarea class="form-control" id="comment"></textarea>
+                <div class="row">
+                    <div class="form-group col-12 ">
+                        <label for="comment">MESSAGE</label>
+                        <textarea class="form-control" id="comment"></textarea>
+                    </div>
                 </div>
-
                 <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div>
+            </form>
         </div>
+
     </section>
     <!-- |--------------------------|Footer|--------------------------------| -->
     <footer class="container-fluid  ">
-        <div class="">
-            <div class="navbar nav-horizontal navbar-expand-lg">
-                <ul class=" navbar-nav mr-auto mb-5">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#haut">HOME |</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#serv">SERVICES |</a>
-                    </li>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-6 ">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#folio">PORTFOLIO |</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#formul">CONTACT</a>
-                </ul>
-                <p class="ml-auto">2013 &copy</p>
+                    <a class="" href="#haut">HOME |</a>
+
+
+                    <a class="" href="#serv">SERVICES |</a>
+
+
+
+                    <a class="" href="#folio">PORTFOLIO |</a>
+
+
+                    <a class="" href="#formul">CONTACT</a>
+                </div>
+                <div>
+                    <p class="col-6">2013&copy</p>
+                </div>
             </div>
         </div>
     </footer>
