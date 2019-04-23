@@ -126,7 +126,7 @@ html .twitter {
   html .twitter i {
     color: white; }
   html .twitter p {
-    font-family: "Segoe UI ";
+    font-family: "Segoe UI";
     font-size: 1.75rem;
     margin-top: 5%;
     margin-bottom: 5%; }
@@ -135,7 +135,7 @@ html .twitter {
 html .who {
   background-image: url("../img/who_is.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   color: white; }
   html .who h2 {
     font-family: 'Segoe UI Light';
@@ -149,8 +149,12 @@ html .who {
   html .who .texte2_1 {
     font-family: "Segoe UI";
     font-size: 0.875rem;
-    margin-top: 5%;
+    margin-top: 13%;
     margin-bottom: 5%; }
+  html .who .icone img {
+    height: 50%;
+    border: 1px solid white;
+    padding: 5% 3%; }
 html .texte3 {
   margin-top: 5%;
   margin-bottom: 5%; }
@@ -173,5 +177,34 @@ html .contact {
   background-repeat: no-repeat;
   background-size: cover;
   color: white; }
+  html .contact h2 {
+    font-family: 'Segoe UI Light';
+    margin-top: 5%;
+    margin-bottom: 5%; }
+  html .contact .para1 {
+    font-family: "Segoe UI Semibold"; }
+  html .contact .para2 {
+    font-family: "Segoe UI Semibold"; }
+  html .contact #nom {
+    background-color: rgba(0, 0, 0, 0); }
+  html .contact #email {
+    background-color: rgba(0, 0, 0, 0); }
+  html .contact #comment {
+    background-color: rgba(0, 0, 0, 0); }
+
+footer {
+  color: grey;
+  background-color: #353f47; }
+  footer ul {
+    text-decoration: none;
+    list-style: none;
+    background-color: #353f47; }
+    footer ul li {
+      margin-top: 5%;
+      margin-bottom: 5%;
+      text-decoration: none;
+      list-style: none; }
+      footer ul li .nav-link {
+        color: grey; }
 
 /*# sourceMappingURL=style.css.map */
