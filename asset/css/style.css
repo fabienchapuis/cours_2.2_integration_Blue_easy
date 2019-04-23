@@ -13,6 +13,7 @@ html {
     margin: 0; }
     html body header #barre {
       background-color: #444f56;
+      position: fixed;
       justify-content: space-around;
       height: 8vh;
       padding: 0;

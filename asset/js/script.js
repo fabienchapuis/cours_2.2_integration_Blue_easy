@@ -92,7 +92,28 @@ function validation8(event) {
 
 }
 
+var formulaire = document.querySelector("#formulaire");
+var missall = document.querySelector("#missall");
 
+formulaire.addEventListener('click', validationFinale);
+
+function validationFinale(event) {
+    event.preventDefault();
+
+    if ((validNom || validEmail || validCommentaire) == false) {
+
+        missall.textContent = 'Champ manquant';
+        missall.style.color = 'red';
+        return false;
+
+    } else {
+
+        missall.textContent = 'Champ Verifié';
+        missall.style.color = 'green';
+        return true;
+    }
+
+}
 
 
 console.log('%c%s',
