@@ -3,204 +3,216 @@
   margin: 0;
   padding: 0; }
 
-html body header {
-  background-image: url("../img/champ.jpg");
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0; }
-  html body header #barre {
-    background-color: #444f56;
-    justify-content: space-around;
-    height: 8vh;
-    padding: 0;
+html {
+  font-size: 16px; }
+  html body header {
+    background-image: url("../img/champ.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0; }
-    html body header #barre .logo {
-      font-family: 'Segoe UI Bold';
-      color: white;
-      font-weight: 800; }
-      html body header #barre .logo span {
+    html body header #barre {
+      background-color: #444f56;
+      justify-content: space-around;
+      height: 8vh;
+      padding: 0;
+      margin: 0; }
+      html body header #barre .logo {
         font-family: 'Segoe UI Bold';
-        color: #6fa2cc;
+        color: white;
         font-weight: 800; }
-    html body header #barre .home .nav-link {
-      font-family: 'Segoe UI Bold';
-      color: white;
-      font-weight: 800; }
-    html body header #barre .home .nav-link :hover {
-      border: 1px solid #4bcaff; }
-  html body header .titre {
-    text-align: center;
-    align-items: center;
-    height: 85vh;
-    margin-top: 40vh; }
-    html body header .titre .titre1 {
-      font-family: 'Segoe UI Light';
-      font-weight: 200;
-      color: white;
-      font-size: 2.6em;
-      background-color: rgba(0, 0, 0, 0.7);
-      border: 1px solid #242525; }
-    html body header .titre .titre2 {
-      font-family: 'Segoe UI Light';
-      color: white;
-      font-size: 2.6em;
-      background-color: rgba(0, 0, 0, 0.7);
-      border: 1px solid #242525; }
-html .services {
-  font-family: 'Segoe UI Light';
-  background-color: #4bcaff;
-  color: white;
-  padding-top: 5%;
-  padding-bottom: 10%; }
-  html .services h2 {
-    margin-top: 5%;
-    margin-bottom: 5%; }
-  html .services .coffee {
-    font-family: "Segoe UI Semibold"; }
-    html .services .coffee h3 {
-      font-family: 'Segoe UI Semibold"';
-      margin-top: 5%;
-      margin-bottom: 5%; }
-    html .services .coffee p {
-      margin-top: 5%;
-      margin-bottom: 5%; }
-  html .services .instant {
-    font-family: "Segoe UI Semibold"; }
-    html .services .instant h3 {
-      margin-top: 5%;
-      margin-bottom: 5%; }
-    html .services .instant p {
-      margin-top: 5%;
-      margin-bottom: 5%; }
-  html .services .serious {
-    font-family: "Segoe UI Semibold"; }
-    html .services .serious h3 {
-      margin-top: 5%;
-      margin-bottom: 5%; }
-    html .services .serious p {
-      margin-top: 5%;
-      margin-bottom: 5%; }
-  html .services .frame {
-    font-family: "Segoe UI Semibold"; }
-    html .services .frame h3 {
-      margin-top: 5%;
-      margin-bottom: 5%; }
-    html .services .frame p {
-      margin-top: 5%;
-      margin-bottom: 5%; }
-html .portfolio {
-  background-color: white;
-  height: 35.6875rem; }
-html .just {
-  background-color: #515f67; }
-  html .just .texte {
-    color: white;
-    margin-top: 5%;
-    margin-bottom: 5%; }
-    html .just .texte h2 {
-      font-family: 'Segoe UI Light';
-      margin-top: 5%;
-      margin-bottom: 5%; }
-    html .just .texte p {
-      font-family: 'Segoe UI';
-      margin-top: 5%;
-      margin-bottom: 5%;
-      margin-right: 5%; }
-    html .just .texte .bouton1 {
-      color: black;
-      padding: 1% 3%;
-      text-decoration: none;
+        html body header #barre .logo span {
+          font-family: 'Segoe UI Bold';
+          color: #6fa2cc;
+          font-weight: 800; }
+      html body header #barre .home .nav-link {
+        font-family: 'Segoe UI Bold';
+        color: white;
+        font-weight: 800; }
+      html body header #barre .home .nav-link :hover {
+        border: 1px solid #4bcaff; }
+    html body header .titre {
       text-align: center;
-      border: 1px solid #242525; }
-  html .just iframe {
-    margin-top: 20%; }
-html .twitter {
-  background-color: #4bcaff;
-  color: white; }
-  html .twitter h2 {
+      align-items: center;
+      height: 85vh;
+      margin-top: 40vh; }
+      html body header .titre .titre1 {
+        font-family: 'Segoe UI Light';
+        font-weight: 200;
+        color: white;
+        font-size: 2.6em;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 1px solid #242525; }
+      html body header .titre .titre2 {
+        font-family: 'Segoe UI Light';
+        color: white;
+        font-size: 2.6em;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 1px solid #242525; }
+  html .services {
     font-family: 'Segoe UI Light';
-    margin-top: 5%;
-    margin-bottom: 5%; }
-  html .twitter a,
-  html .twitter i {
-    color: white; }
-  html .twitter p {
-    font-family: "Segoe UI";
-    font-size: 1.75rem;
-    margin-top: 5%;
-    margin-bottom: 5%; }
-    html .twitter p span {
+    background-color: #4bcaff;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 10%; }
+    html .services h2 {
+      margin-top: 5%;
+      margin-bottom: 5%; }
+    html .services .coffee {
       font-family: "Segoe UI Semibold"; }
-html .who {
-  background-image: url("../img/who_is.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white; }
-  html .who h2 {
-    font-family: 'Segoe UI Light';
-    margin-top: 5%;
-    margin-bottom: 5%; }
-  html .who .texte2 {
-    font-family: "Segoe UI";
-    font-size: 0.875rem;
-    margin-top: 5%;
-    margin-bottom: 5%; }
-  html .who .texte2_1 {
-    font-family: "Segoe UI";
-    font-size: 0.875rem;
-    margin-top: 13%;
-    margin-bottom: 5%; }
-  html .who .icone img {
-    height: 50%;
-    border: 1px solid white;
-    padding: 5% 0%; }
-  html .who .icone #image1 {
+      html .services .coffee h3 {
+        font-family: 'Segoe UI Semibold"';
+        margin-top: 5%;
+        margin-bottom: 5%; }
+      html .services .coffee p {
+        margin-top: 5%;
+        margin-bottom: 5%; }
+    html .services .instant {
+      font-family: "Segoe UI Semibold"; }
+      html .services .instant h3 {
+        margin-top: 5%;
+        margin-bottom: 5%; }
+      html .services .instant p {
+        margin-top: 5%;
+        margin-bottom: 5%; }
+    html .services .serious {
+      font-family: "Segoe UI Semibold"; }
+      html .services .serious h3 {
+        margin-top: 5%;
+        margin-bottom: 5%; }
+      html .services .serious p {
+        margin-top: 5%;
+        margin-bottom: 5%; }
+    html .services .frame {
+      font-family: "Segoe UI Semibold"; }
+      html .services .frame h3 {
+        margin-top: 5%;
+        margin-bottom: 5%; }
+      html .services .frame p {
+        margin-top: 5%;
+        margin-bottom: 5%; }
+  html .portfolio {
+    background-color: white;
+    height: 35.6875rem; }
+  html .just {
+    background-color: #515f67; }
+    html .just .texte {
+      color: white;
+      margin-top: 5%;
+      margin-bottom: 5%; }
+      html .just .texte h2 {
+        font-family: 'Segoe UI Light';
+        margin-top: 5%;
+        margin-bottom: 5%; }
+      html .just .texte p {
+        font-family: 'Segoe UI';
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: 5%; }
+      html .just .texte .bouton1 {
+        color: black;
+        padding: 1% 3%;
+        text-decoration: none;
+        text-align: center;
+        border: 1px solid #242525; }
+    html .just iframe {
+      margin-top: 20%; }
+  html .twitter {
+    background-color: #4bcaff;
     color: white; }
-html .texte3 {
-  margin-top: 5%;
-  margin-bottom: 5%; }
-  html .texte3 h2 {
-    font-family: 'Segoe UI Light';
+    html .twitter h2 {
+      font-family: 'Segoe UI Light';
+      margin-top: 5%;
+      margin-bottom: 5%; }
+    html .twitter a,
+    html .twitter i {
+      color: white; }
+    html .twitter p {
+      font-family: "Segoe UI";
+      font-size: 1.75rem;
+      margin-top: 5%;
+      margin-bottom: 5%; }
+      html .twitter p span {
+        font-family: "Segoe UI Semibold"; }
+  html .who {
+    background-image: url("../img/who_is.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; }
+    html .who h2 {
+      font-family: 'Segoe UI Light';
+      margin-top: 5%;
+      margin-bottom: 5%; }
+    html .who .texte2 {
+      font-family: "Segoe UI";
+      font-size: 0.875rem;
+      margin-top: 5%;
+      margin-bottom: 5%; }
+    html .who .texte2_1 {
+      font-family: "Segoe UI";
+      font-size: 0.875rem;
+      margin-top: 13%;
+      margin-bottom: 5%; }
+    html .who .icone img {
+      height: 50%;
+      border: 1px solid white;
+      padding: 5% 0%;
+      color: white; }
+  html .texte3 {
     margin-top: 5%;
     margin-bottom: 5%; }
-  html .texte3 blockquote {
-    font-family: "Segoe UI";
-    font-size: 1.75rem;
-    margin-top: 5%;
-    margin-bottom: 5%; }
-  html .texte3 cite {
-    color: #4bcaff;
-    font-family: 'Segoe UI Bold';
-    font-size: 0.875rem;
-    margin-top: 5%;
-    margin-bottom: 5%; }
-html .contact {
-  background-image: url("../img/contact.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white; }
-  html .contact h2 {
-    font-family: 'Segoe UI Light'; }
-  html .contact .para1 {
-    font-family: "Segoe UI Semibold"; }
-  html .contact .para2 {
-    font-family: "Segoe UI Semibold"; }
-  html .contact #nom,
-  html .contact #email,
-  html .contact #comment {
-    background-color: rgba(0, 0, 0, 0); }
-html footer {
-  color: grey;
-  background-color: #353f47;
-  padding-top: 3%;
-  padding-bottom: 3%; }
-  html footer a {
-    text-decoration: none;
+    html .texte3 h2 {
+      font-family: 'Segoe UI Light';
+      margin-top: 5%;
+      margin-bottom: 5%; }
+    html .texte3 blockquote {
+      font-family: 'Segoe UI Light';
+      font-size: 1.75rem;
+      margin-top: 5%;
+      margin-bottom: 5%; }
+    html .texte3 cite {
+      color: #4bcaff;
+      font-family: 'Segoe UI Bold';
+      font-size: 0.875rem;
+      margin-top: 5%;
+      margin-bottom: 5%; }
+  html .contact {
+    background-image: url("../img/contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%; }
+    html .contact h2 {
+      font-family: 'Segoe UI Light';
+      padding-bottom: 5%; }
+    html .contact .para1 {
+      font-family: "Segoe UI Semibold";
+      padding-left: 5%; }
+    html .contact .para2 {
+      font-family: "Segoe UI Semibold";
+      font-size: 0.875rem;
+      padding: 0% 0% 0% 5%; }
+    html .contact button {
+      padding: .375rem 7.75rem; }
+    html .contact .nom,
+    html .contact .email,
+    html .contact .comment {
+      background-color: rgba(0, 0, 0, 0); }
+    html .contact .form-control {
+      border-color: green;
+      background-color: rgba(0, 0, 0, 0); }
+  html footer {
+    color: grey;
     background-color: #353f47;
-    color: grey; }
-  html footer a:hover {
-    color: #4bcaff;
-    text-decoration: none; }
+    padding-top: 3%;
+    padding-bottom: 3%; }
+    html footer a {
+      text-decoration: none;
+      background-color: #353f47;
+      color: grey; }
+    html footer a:hover {
+      color: #4bcaff;
+      text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

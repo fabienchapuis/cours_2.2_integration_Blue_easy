@@ -8,6 +8,8 @@
 }
 
 html {
+    font-size: 16px;
+
     body {
 
         header {
@@ -280,25 +282,19 @@ html {
 
         .icone {
 
+
             img {
                 height: 50%;
                 border: 1px solid white;
                 padding: 5% 0%;
-
-
-            }
-
-            #image1 {
                 color: white;
+
             }
+
+            #image1 {}
         }
 
     }
-
-
-
-
-
 
     // ------------------------------|Section Citation |--------------------------------------|
 
@@ -313,7 +309,7 @@ html {
         }
 
         blockquote {
-            font-family: "Segoe UI";
+            font-family: 'Segoe UI Light';
             font-size: 1.75rem;
             margin-top: 5%;
             margin-bottom: 5%;
@@ -334,31 +330,46 @@ html {
         background-repeat: no-repeat;
         background-size: cover;
         color: white;
-
+        padding-top: 5%;
+        padding-bottom: 5%;
 
         h2 {
             font-family: 'Segoe UI Light';
+            padding-bottom: 5%;
 
         }
 
         .para1 {
             font-family: "Segoe UI Semibold";
+            padding-left: 5%;
 
         }
 
         .para2 {
             font-family: "Segoe UI Semibold";
+            font-size: 0.875rem;
+            padding: 0% 0% 0% 5%;
 
         }
 
-        #nom,
-        #email,
-        #comment {
+        button {
+            padding: .375rem 7.75rem;
+        }
+
+        .nom,
+        .email,
+        .comment {
 
             background-color: rgba(0, 0, 0, 0);
+
         }
 
+        .form-control {
 
+            border-color: green;
+            background-color: rgba(0, 0, 0, 0);
+
+        }
     }
 
 
