@@ -125,6 +125,77 @@
     </section>
     <!-- |--------------------------|Section Portfolio|--------------------| -->
     <section id="folio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <h2 class="col-6">PORTFOLIO</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="main">
+                    <div class="mr-auto" id="myBtnContainer">
+                        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                        <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+                        <button class="btn" onclick="filterSelection('paysage')"> Paysage</button>
+                        <button class="btn" onclick="filterSelection('panorama')"> Panorama</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+                <div class="column nature">
+                    <div class="content">
+                        <img src="asset/img/photo7.png" alt="Mountains" style="width:100%">
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="asset/img/photo8.png" alt="Mountains 2" style="width:100%">
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="asset/img/photo5.png" alt="house" style="width:100%">
+                    </div>
+                </div>
+
+                <div class="column paysage">
+                    <div class="content">
+                        <img src="asset/img/photo6.png" alt="wave" style="width:100%">
+                    </div>
+                </div>
+                <div class="column paysage">
+                    <div class="content">
+                        <img src="asset/img/photo4.png" alt="island" style="width:100%">
+                    </div>
+                </div>
+                <div class="column paysage">
+                    <div class="content">
+                        <img src="asset/img/photo3.png" alt="island 2" style="width:100%">
+                    </div>
+                </div>
+
+                <div class="column panorama">
+                    <div class="content">
+                        <img src="asset/img/photo1.png" alt="bridge 1" style="width:100%">
+                    </div>
+                </div>
+                <div class="column panorama">
+                    <div class="content">
+                        <img src="asset/img/photo2.png" alt="bridge 2" style="width:100%">
+                    </div>
+                </div>
+
+                <!-- END GRID -->
+            </div>
+        </div>
+
+
+
+
+
+
+
 
 
     </section>
@@ -307,6 +378,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+    <script src="asset/js/portfolio.js"></script>
     <script src="asset/js/script.js"></script>
 
 </body>

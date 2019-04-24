@@ -13,7 +13,6 @@ html {
     margin: 0; }
     html body header #barre {
       background-color: #444f56;
-      position: fixed;
       justify-content: space-around;
       height: 8vh;
       padding: 0;
@@ -30,8 +29,8 @@ html {
         font-family: 'Segoe UI Bold';
         color: white;
         font-weight: 800; }
-      html body header #barre .home .nav-link :hover {
-        border: 1px solid #4bcaff; }
+      html body header #barre .home .nav-link:hover {
+        border: 2px solid #4bcaff; }
     html body header .titre {
       text-align: center;
       align-items: center;
@@ -94,7 +93,49 @@ html {
         margin-bottom: 5%; }
   html .portfolio {
     background-color: white;
-    height: 35.6875rem; }
+    /* Center website */
+    /* Add padding BETWEEN each column */
+    /* Create three equal columns that floats next to each other */
+    /* Clear floats after rows */
+    /* Content */
+    /* The "show" class is added to the filtered elements */
+    /* Style the buttons */ }
+    html .portfolio .main {
+      max-width: 1000px;
+      margin: auto; }
+    html .portfolio h2 {
+      font-family: 'Segoe UI Light';
+      word-break: break-all; }
+    html .portfolio .row {
+      margin: 10px -16px; }
+    html .portfolio .row,
+    html .portfolio .row > .column {
+      padding: 8px; }
+    html .portfolio .column {
+      float: left;
+      width: 33.33%;
+      display: none;
+      /* Hide all elements by default */ }
+    html .portfolio .row:after {
+      content: "";
+      display: table;
+      clear: both; }
+    html .portfolio .content {
+      background-color: white;
+      padding: 10px; }
+    html .portfolio .show {
+      display: block; }
+    html .portfolio .btn {
+      border: none;
+      outline: none;
+      padding: 12px 16px;
+      background-color: white;
+      cursor: pointer; }
+    html .portfolio .btn:hover {
+      background-color: #ddd; }
+    html .portfolio .btn.active {
+      background-color: #666;
+      color: white; }
   html .just {
     background-color: #515f67; }
     html .just .texte {
