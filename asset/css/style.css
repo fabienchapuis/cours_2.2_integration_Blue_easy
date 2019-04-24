@@ -1,10 +1,17 @@
 @import url("https://cdn.jsdelivr.net/npm/segoe-fonts@1.0.1/segoe-fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Bitter:700");
 * {
   margin: 0;
   padding: 0; }
 
 html {
-  font-size: 16px; }
+  font-size: 16px;
+  /* Add padding BETWEEN each column */
+  /* Create three equal columns that floats next to each other */
+  /* Clear floats after rows */
+  /* Content */
+  /* The "show" class is added to the filtered elements */
+  /* Style the buttons */ }
   html body header {
     background-image: url("../img/champ.jpg");
     height: 100vh;
@@ -12,7 +19,7 @@ html {
     background-size: cover;
     margin: 0; }
     html body header #barre {
-      background-color: #444f56;
+      background-color: rgba(68, 79, 86, 0.7);
       justify-content: space-around;
       height: 8vh;
       padding: 0;
@@ -58,6 +65,9 @@ html {
     html .services h2 {
       margin-top: 5%;
       margin-bottom: 5%; }
+      html .services h2 span {
+        text-decoration: underline;
+        color: white; }
     html .services .coffee {
       font-family: "Segoe UI Semibold"; }
       html .services .coffee h3 {
@@ -72,9 +82,9 @@ html {
       html .services .instant h3 {
         margin-top: 5%;
         margin-bottom: 5%; }
-      html .services .instant p {
-        margin-top: 5%;
-        margin-bottom: 5%; }
+    html .services p {
+      margin-top: 5%;
+      margin-bottom: 5%; }
     html .services .serious {
       font-family: "Segoe UI Semibold"; }
       html .services .serious h3 {
@@ -93,51 +103,48 @@ html {
         margin-bottom: 5%; }
   html .portfolio {
     background-color: white;
-    /* Center website */
-    /* Add padding BETWEEN each column */
-    /* Create three equal columns that floats next to each other */
-    /* Clear floats after rows */
-    /* Content */
-    /* The "show" class is added to the filtered elements */
-    /* Style the buttons */ }
+    /* Center website */ }
     html .portfolio .main {
       max-width: 1000px;
       margin: auto; }
     html .portfolio h2 {
+      margin: 5%;
       font-family: 'Segoe UI Light';
       word-break: break-all; }
-    html .portfolio .row {
-      margin: 10px -16px; }
-    html .portfolio .row,
-    html .portfolio .row > .column {
-      padding: 8px; }
-    html .portfolio .column {
-      float: left;
-      width: 33.33%;
-      display: none;
-      /* Hide all elements by default */ }
-    html .portfolio .row:after {
-      content: "";
-      display: table;
-      clear: both; }
-    html .portfolio .content {
-      background-color: white;
-      padding: 10px; }
-    html .portfolio .show {
-      display: block; }
-    html .portfolio .btn {
-      border: none;
-      outline: none;
-      padding: 12px 16px;
-      background-color: white;
-      cursor: pointer; }
-    html .portfolio .btn:hover {
-      background-color: #ddd; }
-    html .portfolio .btn.active {
-      background-color: #666;
-      color: white; }
+      html .portfolio h2 span {
+        text-decoration: underline;
+        color: black; }
+  html .row,
+  html .row > .column {
+    padding: 8px; }
+  html .column {
+    float: left;
+    width: 33.33%;
+    display: none;
+    /* Hide all elements by default */ }
+  html .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  html .content {
+    background-color: white;
+    padding: 10px; }
+  html .show {
+    display: block; }
+  html .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer; }
+  html .btn:hover {
+    background-color: #ddd; }
+  html .btn.active {
+    background-color: #666;
+    color: white; }
   html .just {
-    background-color: #515f67; }
+    background-color: #515f67;
+    /* 4x3 Aspect Ratio */ }
     html .just .texte {
       color: white;
       margin-top: 5%;
@@ -146,6 +153,9 @@ html {
         font-family: 'Segoe UI Light';
         margin-top: 5%;
         margin-bottom: 5%; }
+        html .just .texte h2 span {
+          text-decoration: underline;
+          color: white; }
       html .just .texte p {
         font-family: 'Segoe UI';
         margin-top: 5%;
@@ -157,8 +167,12 @@ html {
         text-decoration: none;
         text-align: center;
         border: 1px solid #242525; }
-    html .just iframe {
-      margin-top: 20%; }
+    html .just .iframe-container iframe {
+      border: 0;
+      height: 100%;
+      width: 100%; }
+    html .just .iframe-container-4x3 {
+      padding-top: 75%; }
   html .twitter {
     background-color: #4bcaff;
     color: white; }
@@ -166,6 +180,13 @@ html {
       font-family: 'Segoe UI Light';
       margin-top: 5%;
       margin-bottom: 5%; }
+      html .twitter h2 span {
+        text-decoration: underline;
+        color: white; }
+    html .twitter img {
+      width: 10%;
+      height: 27%;
+      margin-top: 13%; }
     html .twitter a,
     html .twitter i {
       color: white; }
@@ -185,6 +206,9 @@ html {
       font-family: 'Segoe UI Light';
       margin-top: 5%;
       margin-bottom: 5%; }
+      html .who h2 span {
+        text-decoration: underline;
+        color: white; }
     html .who .texte2 {
       font-family: "Segoe UI";
       font-size: 0.875rem;
@@ -207,6 +231,12 @@ html {
       font-family: 'Segoe UI Light';
       margin-top: 5%;
       margin-bottom: 5%; }
+      html .texte3 h2 span {
+        text-decoration: underline;
+        color: black; }
+    html .texte3 #guillemets {
+      font-family: 'Bitter';
+      font-size: 3rem; }
     html .texte3 blockquote {
       font-family: 'Segoe UI Light';
       font-size: 1.75rem;
@@ -228,6 +258,9 @@ html {
     html .contact h2 {
       font-family: 'Segoe UI Light';
       padding-bottom: 5%; }
+      html .contact h2 span {
+        text-decoration: underline;
+        color: white; }
     html .contact .para1 {
       font-family: "Segoe UI Semibold";
       padding-left: 5%; }
@@ -244,6 +277,8 @@ html {
     html .contact .form-control {
       border-color: green;
       background-color: rgba(0, 0, 0, 0); }
+    html .contact #formulaire {
+      background-color: #4bcaff; }
   html footer {
     color: grey;
     background-color: #353f47;

@@ -1,5 +1,6 @@
 // |----------------------------|Import Font |-------------------------|
 @import url('https://cdn.jsdelivr.net/npm/segoe-fonts@1.0.1/segoe-fonts.css');
+@import url('https://fonts.googleapis.com/css?family=Bitter:700');
 
 * {
 
@@ -21,8 +22,7 @@ html {
 
             #barre {
                 //|-----|Background navbar|---------|
-                background-color: #444f56;
-                // position: fixed; fonctionne avec class scrollspy du body et id ds navbar
+                background-color: rgba(68, 79, 86, 0.7); // position: fixed; fonctionne avec class scrollspy du body et id ds navbar
                 justify-content: space-around;
                 height: 8vh;
                 padding: 0;
@@ -103,6 +103,11 @@ html {
         h2 {
             margin-top: 5%;
             margin-bottom: 5%;
+
+            span {
+                text-decoration: underline;
+                color: white;
+            }
         }
 
         .coffee {
@@ -126,14 +131,16 @@ html {
             h3 {
                 margin-top: 5%;
                 margin-bottom: 5%;
-            }
 
-            p {
-                margin-top: 5%;
-                margin-bottom: 5%;
             }
-
         }
+
+        p {
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+
+
 
         .serious {
             font-family: "Segoe UI Semibold";
@@ -178,70 +185,70 @@ html {
         }
 
         h2 {
+            margin: 5%;
             font-family: 'Segoe UI Light';
             word-break: break-all;
+
+            span {
+                text-decoration: underline;
+                color: black;
+            }
         }
-
-        .row {
-            margin: 10px -16px;
-        }
-
-        /* Add padding BETWEEN each column */
-        .row,
-        .row>.column {
-            padding: 8px;
-        }
-
-        /* Create three equal columns that floats next to each other */
-        .column {
-            float: left;
-            width: 33.33%;
-            display: none;
-            /* Hide all elements by default */
-        }
-
-        /* Clear floats after rows */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        /* Content */
-        .content {
-            background-color: white;
-            padding: 10px;
-        }
-
-        /* The "show" class is added to the filtered elements */
-        .show {
-            display: block;
-        }
-
-        /* Style the buttons */
-        .btn {
-            border: none;
-            outline: none;
-            padding: 12px 16px;
-            background-color: white;
-            cursor: pointer;
-        }
-
-        .btn:hover {
-            background-color: #ddd;
-        }
-
-        .btn.active {
-            background-color: #666;
-            color: white;
-        }
-
-
-
-
-
-
     }
+
+
+
+    /* Add padding BETWEEN each column */
+    .row,
+    .row>.column {
+        padding: 8px;
+    }
+
+    /* Create three equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 33.33%;
+        display: none;
+        /* Hide all elements by default */
+    }
+
+    /* Clear floats after rows */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Content */
+    .content {
+        background-color: white;
+        padding: 10px;
+    }
+
+    /* The "show" class is added to the filtered elements */
+    .show {
+        display: block;
+    }
+
+    /* Style the buttons */
+    .btn {
+        border: none;
+        outline: none;
+        padding: 12px 16px;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: #ddd;
+    }
+
+    .btn.active {
+        background-color: #666;
+        color: white;
+    }
+
+
 
     // ------------------------------|Section Just Default |--------------------------------------|
     .just {
@@ -257,6 +264,11 @@ html {
                 font-family: 'Segoe UI Light';
                 margin-top: 5%;
                 margin-bottom: 5%;
+
+                span {
+                    text-decoration: underline;
+                    color: white;
+                }
             }
 
             p {
@@ -275,10 +287,18 @@ html {
             }
         }
 
-        iframe {
-            margin-top: 20%;
 
 
+
+        .iframe-container iframe {
+            border: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        /* 4x3 Aspect Ratio */
+        .iframe-container-4x3 {
+            padding-top: 75%;
         }
     }
 
@@ -292,6 +312,19 @@ html {
             font-family: 'Segoe UI Light';
             margin-top: 5%;
             margin-bottom: 5%;
+
+            span {
+                text-decoration: underline;
+                color: white;
+            }
+
+
+        }
+
+        img {
+            width: 10%;
+            height: 27%;
+            margin-top: 13%;
 
         }
 
@@ -326,6 +359,11 @@ html {
             font-family: 'Segoe UI Light';
             margin-top: 5%;
             margin-bottom: 5%;
+
+            span {
+                text-decoration: underline;
+                color: white;
+            }
         }
 
         .texte2 {
@@ -356,7 +394,7 @@ html {
 
             }
 
-            #image1 {}
+
         }
 
     }
@@ -371,6 +409,16 @@ html {
             font-family: 'Segoe UI Light';
             margin-top: 5%;
             margin-bottom: 5%;
+
+            span {
+                text-decoration: underline;
+                color: black;
+            }
+        }
+
+        #guillemets {
+            font-family: 'Bitter';
+            font-size: 3rem;
         }
 
         blockquote {
@@ -387,6 +435,7 @@ html {
             margin-top: 5%;
             margin-bottom: 5%;
         }
+
     }
 
     // ----------------------------------------|Section Formulaire de Contact |--------------------------------------|
@@ -401,6 +450,11 @@ html {
         h2 {
             font-family: 'Segoe UI Light';
             padding-bottom: 5%;
+
+            span {
+                text-decoration: underline;
+                color: white;
+            }
 
         }
 
@@ -435,8 +489,14 @@ html {
             background-color: rgba(0, 0, 0, 0);
 
         }
-    }
 
+        #formulaire {
+            background-color: #4bcaff;
+            ;
+        }
+
+
+    }
 
 
 
@@ -464,7 +524,6 @@ html {
 
 
         }
-
     }
 
 
